@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Surprise</title>
+        <style>
+            .center-text {
+                text-align: center;
+            }
+            body {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background: linear-gradient(#BDE0FE, #9CAF88);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+            .container {
+                background: white;
+                padding: 30px;
+                border-radius: 15px;
+                box-shadow: 0 0 15px rgba(0,0,0,0.1);
+                width:350px;
+            }
+            button {
+                padding: 10px 20px;
+                margin: 10px;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+            .yes {
+                background: #4CAF50;
+                color: white;
+            }
+            .no {
+                background: #f44336;
+                color: white;
+            }
+            #secondPage {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div id="firstPage"></div>
+                <h2>Are you Hannah marie?</h2>
+                <button class="yes" onclick="window.location.href='question2.html'">Yes</button>
+                <button class="no" onclick="alert('This page is only for Hannah')">No</button>
+        </div>
+    </body>
+</html>
