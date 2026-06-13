@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -181,4 +182,189 @@ video{
 <div class="balloon"></div>
 
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Hannah Marie!</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    text-align:center;
+    overflow-x:hidden;
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full viewport height */
+    background-image: url('images/download\ \(34\).jpg'); /* Path to your image */
+    background-size: cover; /* Scale image to cover entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-attachment: fixed; /* Keep image fixed when scrolling */
+}
+
+/* Happy Birthday Animation */
+h1{
+    margin-top:50px;
+    font-size:4rem;
+    color:white;
+    animation:bounce 1.5s infinite;
+    text-shadow:3px 3px 10px rgba(0,0,0,0.2);
+}
+
+@keyframes bounce{
+    0%,100%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-20px);
+    }
+}
+
+/* Subtitle */
+p{
+    color:white;
+    font-size:1.3rem;
+    margin:15px;
+}
+
+/* Gallery */
+.gallery{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:30px;
+}
+
+.gallery img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius:15px;
+    border:5px solid white;
+    transition:0.3s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+/* Videos */
+.videos{
+    padding:30px;
+}
+
+video{
+    width:320px;
+    border-radius:15px;
+    border:5px solid white;
+}
+
+/* Balloons */
+.balloon{
+    position:fixed;
+    bottom:-150px;
+    width:60px;
+    height:80px;
+    border-radius:50%;
+    animation:float 8s linear infinite;
+}
+
+.balloon::after{
+    content:'';
+    position:absolute;
+    width:2px;
+    height:60px;
+    background:white;
+    left:50%;
+    top:80px;
+}
+
+.balloon:nth-child(1){
+    left:10%;
+    background:red;
+    animation-duration:7s;
+}
+
+.balloon:nth-child(2){
+    left:30%;
+    background:blue;
+    animation-duration:9s;
+}
+
+.balloon:nth-child(3){
+    left:50%;
+    background:yellow;
+    animation-duration:8s;
+}
+
+.balloon:nth-child(4){
+    left:70%;
+    background:green;
+    animation-duration:10s;
+}
+
+.balloon:nth-child(5){
+    left:90%;
+    background:purple;
+    animation-duration:6s;
+}
+
+@keyframes float{
+    from{
+        transform:translateY(0);
+    }
+    to{
+        transform:translateY(-120vh);
+    }
+}
+</style>
+</head>
+<body>
+
+<h1>🎉 Happy Birthday Hannah Marie! 🎂</h1>
+
+<p>Ate loves you and remember to stay strong and courageous in everything you do. I am always here to support you. God bless you!</p>
+<p>Always remember I am here for you. You give all of us joy and I really admire your strength even when things get hard. Keep shining, keep being kind, always remember God is with you always!</p>
+
+<!-- Photos -->
+<div class="gallery">
+    <img src="images/168409343_254633266395583_8501003333204125613_n.jpg" alt="Photo 1">
+    <img src="images/20191229_203656.jpg" alt="Photo 2">
+    <img src="images/599185138_2900521593470923_1461770357059333076_n.jpg" alt="Photo 3">
+    <img src="images/629767569_1630967197905712_8346029333031391147_n.jpg" alt="Photo 4">
+    <img src="images/694119183_2246963699405279_6431424593816211031_n.jpg" alt="Photo 5">
+    <img src="images/703719661_1507720264168005_8157613391620408342_n.jpg" alt="Photo 6">
+    <img src="images/nn pic 1.jpg" alt="Photo 7">
+    <img src="images/WIN_20250208_10_30_51_Pro.jpg" alt="Photo 8">
+    <img src="images/480466877_2083494305432958_5208550533094006781_n.jpg" alt="Photo 9">
+</div>
+
+<!-- Videos -->
+<div class="videos">
+    <h2 style="color:white;">Special Memories 🎥</h2>
+    <br>
+
+    <video controls>
+        <source src="videos/happy birthday enen.mp4" type="video/mp4">
+    </video>
+</div>
+
+<!-- Floating Balloons -->
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+
+</body>
+>>>>>>> 38f3a2b8ef21a793a9914ca40075d6569876eaae
 </html>
